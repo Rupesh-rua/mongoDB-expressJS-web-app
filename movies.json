@@ -1,0 +1,52 @@
+{
+	"movies" : [
+		{
+			"title"   		 : "21 Jump Street",
+			"genre"   		 : "Action, Comedy, Crime",
+			"year"    		 : 2012,
+			"runtime"		 : "1h 49m"
+		},
+		{
+			"title"   		 : "Spider-Man",
+			"genre"   		 : "Action",
+			"year"    		 : 2002,
+			"runtime"		 : "2h 1m"
+		},
+		{
+			"title"  		 : "The Man in the Iron Mask",
+			"genre"   		 : "Adventure, Drama",
+			"year"    		 : 1998,
+			"runtime"		 : "2h 12m"
+		},
+		{
+			"title"   		 : "DOA: Dead or Alive",
+			"genre"   		 : "Action, Adventure",
+			"year"    		 : 2006,
+			"runtime"		 : "1h 27"
+		},
+		{
+			"title"   		 : "Dredd",
+			"genre"   		 : "Action, Crime, Sci-Fi",
+			"year"    		 : 2012,
+			"runtime"		 : "1h 35m"
+		},
+		{
+			"title"   		 : "The Conjuring",
+			"genre"   		 : "Horror, Mystery",
+			"year"    		 : 2013,
+			"runtime"		 : "1h 52m"
+		},
+		{
+			"title"   		 : "Death at a Funeral",
+			"genre"   		 : "Comedy",
+			"year"    		 : 2007,
+			"runtime"		 : "1h 30m"
+		},
+		{
+			"title"   		 : "Zombieland",
+			"genre"   		 : "Action, Comedy, Horror",
+			"year"    		 : 2009,
+			"runtime"		 : "1h 28m"
+		}
+	]
+}

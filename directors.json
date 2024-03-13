@@ -1,0 +1,40 @@
+{
+	"directors" : [
+		{
+			"name"   	: "Seth McFarlane",
+			"languages" : "English",
+			"country"	: "USA",
+			"age"		: 40
+		},
+		{
+			"name"   	: "Christopher Nolan",
+			"languages" : "English",
+			"country"	: "USA",
+			"age"		:  50
+		},
+		{
+			"name"   	: "Satyajit Ray",
+			"languages" : "Bengali, Hindi",
+			"country"	: "India",
+			"age"		: 60
+		},
+		{
+			"name"   	: "Gunnar Olsson",
+			"languages" : "Swedish",
+			"country"	: "Sweden",
+			"age"		: 50
+		},
+		{
+			"name"   	: "Terry Gilliam",
+			"languages" : "English",
+			"country"	: "Britain",
+			"age"		:  50
+		},
+		{
+			"name"   	: "Subhash Ghai",
+			"languages" : "Hindi",
+			"country"	: "India",
+			"age"		:  50
+		}
+	]
+}

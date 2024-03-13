@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #767846;
+}
+
+h1 {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	text-align: center;
+	font-family: Arial;
+	color: #4b194f;
+	font-weight: 400;
+}
+
+.box {
+	width: 50vw;
+	margin: auto;
+	margin-bottom: 1em;
+	padding: 0.5em;
+	border-style: solid;
+	border-color: #4b194f;
+	border-width: 2px;
+	border-radius: 0.8em;
+}
+
+.innerBox {
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+	padding-left: 2em;
+	margin: 1em 2% 0px 2%;
+}
+
+/* .innerBox[id^="put"] {
+	height: 9em;
+} */
+
+button {
+	width: 20%;
+	height: 2em;
+	border-radius: 0.5em;
+	font-family: "Helvetica", "Ubuntu", "Cinzel", "Lucida Console", "Courier New", monospace;
+	text-align:center;
+	margin-left: 14%;
+	margin-right: 14%;
+}
+
+input[type = "reset"] {
+	width: 20%;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+}
+
+ul li {
+	font-weight: 600;
+}

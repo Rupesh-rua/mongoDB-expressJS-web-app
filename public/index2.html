@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="style2.css"/>
+		<script src="script2.js" defer></script>
+		<title>Main page</title>
+	</head>
+	<body>
+		<h1>A RESTful API</h1>
+		<a href="index.html">index1</a><br>
+		<div class="box" id ="d_get">
+			<button type="button" id="getAllMovies" style="background-color:#f44336">GET all movies</button>
+			<button type="button" id="getAllDirectors" style="background-color:#f44336">GET all directors</button><br>
+			<div class="innerBox" id="fullListMovies"></div>
+			<div class="innerBox" id="fullListDirectors"></div>
+		</div>
+		<div class="box" id ="d_post">
+			<button type="button" id="postMovieBtn" style="background-color:#4CAF50">POST a movie</button>
+			<button type="button" id="postDirectorBtn" style="background-color:#4CAF50">POST a director</button>
+			<div class="innerBox" id="postAMovie">
+				<form id="formPostMovie">
+					Title: <input type="text" id="posttitle" name="title"><br>
+					Genre: <input type="text" id="postgenre" name="genre"><br>
+					Year: <input type="text" id="postyear" name="year"><br>
+					Runtime: <input type="text" id="postruntime" name="runtime"><br>
+					<input type="reset" value="reset">
+				</form>
+				<p></p>
+			</div>
+			<div class="innerBox" id="postADirector">
+				<form id="formPostDirector">
+					Name: <input type="text" id="postname" name="name"><br>
+					Languages: <input type="text" id="postlanguages" name="language"><br>
+					Country: <input type="text" id="postcountry" name="country"><br>
+					Age: <input type="text" id="postage" name="age"><br>
+					<input type="reset" value="reset">
+				</form>
+				<p></p>
+			</div>
+		</div>
+		<div class="box" id ="d_put">
+			<button type="button" id="putMovieBtn" style="background-color:#008CBA">PUT a movie</button>
+			<button type="button" id="putDirectorBtn" style="background-color:#008CBA">PUT a director</button>
+			<div class="innerBox" id="putAMovie">
+				<form id="formPutMovie">
+					Title: <input type="text" id="puttitle"><br>
+					Genre: <input type="text" id="putgenre"><br>
+					Year: <input type="text" id="putyear"><br>
+					Runtime: <input type="text" id="putruntime"><br>
+					<input type="reset" value="reset">
+				</form>
+				<p></p>
+			</div>
+			<div class="innerBox" id="putADirector">
+				<form id="formPutDirector">
+					Name: <input type="text" id="putname"><br>
+					Languages: <input type="text" id="putlanguages"><br>
+					Country: <input type="text" id="putcountry"><br>
+					Age: <input type="text" id="postage"><br>
+					<input type="reset" value="reset">
+				</form>
+				<p></p>
+			</div>
+		</div>
+		<div class="box" id ="d_delete">
+			<button type="button" id="deleteMovieBtn" style="background-color:#d8d50d">DELETE a movie</button>
+			<button type="button" id="deleteDirectorBtn" style="background-color:#d8d50d">DELETE a director</button>
+			<div class="innerBox" id="deleteAMovie">
+				<form id="formDeleteMovie">
+					Title: <input type="text" id="deletetitle" name="title"><br>
+					<input type="reset" value="reset">
+				</form>
+				<p></p>
+			</div>
+			<div class="innerBox" id="deleteADirector">
+				<form id="formDeleteDirector">
+					Name: <input type="text" id="deletename" name="name"><br>
+					<input type="reset" value="reset">
+				</form>
+				<p></p>
+			</div>
+		</div>
+	</body>
+</html>
